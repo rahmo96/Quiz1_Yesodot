@@ -1,7 +1,7 @@
 import numpy as np
 from colors import bcolors
 
-def get_elemetarys(matrix):
+def get_elemetarys(matrix): #Return only the elementary matrices!!
     elem_mat = []
     if matrix.shape[0] != matrix.shape[1]:
         raise ValueError("Input matrix must be square.")
